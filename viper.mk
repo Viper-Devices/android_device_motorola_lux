@@ -19,9 +19,12 @@ $(call inherit-product, device/motorola/lux/full_lux.mk)
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 1920
 
+# Build type
+VIPER_BUILD_TYPE=OFFICIAL
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := lux
-PRODUCT_NAME := lineage_lux
+PRODUCT_NAME := viper_lux
 PRODUCT_BRAND := Motorola
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := lux
